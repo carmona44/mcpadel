@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d0e55096cf080c8333b2caf0c72ddbc1",
+    "revision": "61f1007385ea776fdf4be48a33c6c2b8",
     "url": "/mcpadel/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mcpadel/static/css/2.30463588.chunk.css"
   },
   {
-    "revision": "c9f7278c3214caa725b1",
+    "revision": "6817e3d6a38f7059471d",
     "url": "/mcpadel/static/css/main.0c5d491c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mcpadel/static/js/2.12081648.chunk.js"
   },
   {
-    "revision": "c9f7278c3214caa725b1",
-    "url": "/mcpadel/static/js/main.23723dd4.chunk.js"
+    "revision": "6817e3d6a38f7059471d",
+    "url": "/mcpadel/static/js/main.f263c6e2.chunk.js"
   },
   {
     "revision": "d85147773896a11b34e0",
@@ -196,15 +196,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mcpadel/static/media/miniparejas6.6098fd86.png"
   },
   {
-    "revision": "8dd13001985cf952d9cca01b9430c8d4",
-    "url": "/mcpadel/static/media/parejas-jornada1-1.8dd13001.jpg"
+    "revision": "a8432f1045b3d2948c84fdb9e2868912",
+    "url": "/mcpadel/static/media/parejas-jornada2-1.a8432f10.jpg"
   },
   {
-    "revision": "81dd88f8d2537f38625fb1d0aea27ced",
-    "url": "/mcpadel/static/media/parejas-jornada1-2.81dd88f8.jpg"
+    "revision": "a08714b8c5583e47c7fca9ea50dc1d7f",
+    "url": "/mcpadel/static/media/parejas-jornada2-2.a08714b8.jpg"
   },
   {
-    "revision": "37576875bc1d41d2731657b407f349e5",
-    "url": "/mcpadel/static/media/parejas-jornada1-3.37576875.jpg"
+    "revision": "3c6fa2590189f70353b1dee55c24ac54",
+    "url": "/mcpadel/static/media/parejas-jornada2-3.3c6fa259.jpg"
   }
 ]);
