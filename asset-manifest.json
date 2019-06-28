@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/mcpadel/static/css/main.0c5d491c.chunk.css",
+    "main.js": "/mcpadel/static/js/main.23723dd4.chunk.js",
+    "main.js.map": "/mcpadel/static/js/main.23723dd4.chunk.js.map",
+    "runtime~main.js": "/mcpadel/static/js/runtime~main.58f67504.js",
+    "runtime~main.js.map": "/mcpadel/static/js/runtime~main.58f67504.js.map",
+    "static/css/2.30463588.chunk.css": "/mcpadel/static/css/2.30463588.chunk.css",
+    "static/js/2.12081648.chunk.js": "/mcpadel/static/js/2.12081648.chunk.js",
+    "static/js/2.12081648.chunk.js.map": "/mcpadel/static/js/2.12081648.chunk.js.map",
+    "index.html": "/mcpadel/index.html",
+    "precache-manifest.08c0d0bf0e03b0c389dff185e9ff8c44.js": "/mcpadel/precache-manifest.08c0d0bf0e03b0c389dff185e9ff8c44.js",
+    "service-worker.js": "/mcpadel/service-worker.js",
+    "static/css/2.30463588.chunk.css.map": "/mcpadel/static/css/2.30463588.chunk.css.map",
+    "static/css/main.0c5d491c.chunk.css.map": "/mcpadel/static/css/main.0c5d491c.chunk.css.map",
+    "static/media/mdb.css": "/mcpadel/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/mcpadel/static/media/fa-solid-900.f14c3b2f.ttf",
+    "static/media/miniparejas1.png": "/mcpadel/static/media/miniparejas1.ddbc8527.png",
+    "static/media/miniparejas2.png": "/mcpadel/static/media/miniparejas2.6ff00898.png",
+    "static/media/miniparejas3.png": "/mcpadel/static/media/miniparejas3.9b58b86d.png",
+    "static/media/miniparejas4.png": "/mcpadel/static/media/miniparejas4.b91591f2.png",
+    "static/media/miniparejas5.png": "/mcpadel/static/media/miniparejas5.f9ca0b41.png",
+    "static/media/miniparejas6.png": "/mcpadel/static/media/miniparejas6.6098fd86.png",
+    "static/media/parejas-jornada1-1.jpg": "/mcpadel/static/media/parejas-jornada1-1.8dd13001.jpg",
+    "static/media/parejas-jornada1-2.jpg": "/mcpadel/static/media/parejas-jornada1-2.81dd88f8.jpg",
+    "static/media/parejas-jornada1-3.jpg": "/mcpadel/static/media/parejas-jornada1-3.37576875.jpg"
+  }
+}
