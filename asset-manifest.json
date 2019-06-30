@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mcpadel/static/css/main.0c5d491c.chunk.css",
+    "main.css": "/mcpadel/static/css/main.9436ab5b.chunk.css",
     "main.js": "/mcpadel/static/js/main.f263c6e2.chunk.js",
     "main.js.map": "/mcpadel/static/js/main.f263c6e2.chunk.js.map",
     "runtime~main.js": "/mcpadel/static/js/runtime~main.58f67504.js",
@@ -9,12 +9,13 @@
     "static/js/2.12081648.chunk.js": "/mcpadel/static/js/2.12081648.chunk.js",
     "static/js/2.12081648.chunk.js.map": "/mcpadel/static/js/2.12081648.chunk.js.map",
     "index.html": "/mcpadel/index.html",
-    "precache-manifest.9efa6089bc0e9104e4d1e5e331e6b744.js": "/mcpadel/precache-manifest.9efa6089bc0e9104e4d1e5e331e6b744.js",
+    "precache-manifest.c8d53270b9fc305558a71d210dab2b79.js": "/mcpadel/precache-manifest.c8d53270b9fc305558a71d210dab2b79.js",
     "service-worker.js": "/mcpadel/service-worker.js",
     "static/css/2.30463588.chunk.css.map": "/mcpadel/static/css/2.30463588.chunk.css.map",
-    "static/css/main.0c5d491c.chunk.css.map": "/mcpadel/static/css/main.0c5d491c.chunk.css.map",
+    "static/css/main.9436ab5b.chunk.css.map": "/mcpadel/static/css/main.9436ab5b.chunk.css.map",
     "static/media/mdb.css": "/mcpadel/static/media/arrow_right.8ef6a08c.svg",
     "static/media/all.min.css": "/mcpadel/static/media/fa-solid-900.f14c3b2f.ttf",
+    "static/media/App.css": "/mcpadel/static/media/fondo.74e34f80.jpg",
     "static/media/miniparejas1.png": "/mcpadel/static/media/miniparejas1.ddbc8527.png",
     "static/media/miniparejas2.png": "/mcpadel/static/media/miniparejas2.6ff00898.png",
     "static/media/miniparejas3.png": "/mcpadel/static/media/miniparejas3.9b58b86d.png",

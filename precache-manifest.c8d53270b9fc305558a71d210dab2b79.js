@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "61f1007385ea776fdf4be48a33c6c2b8",
+    "revision": "9ce5b98c339523f9114345befd218d60",
     "url": "/mcpadel/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mcpadel/static/css/2.30463588.chunk.css"
   },
   {
-    "revision": "6817e3d6a38f7059471d",
-    "url": "/mcpadel/static/css/main.0c5d491c.chunk.css"
+    "revision": "f9f91e24701296d39f2f",
+    "url": "/mcpadel/static/css/main.9436ab5b.chunk.css"
   },
   {
     "revision": "f95e2046278928e56037",
     "url": "/mcpadel/static/js/2.12081648.chunk.js"
   },
   {
-    "revision": "6817e3d6a38f7059471d",
+    "revision": "f9f91e24701296d39f2f",
     "url": "/mcpadel/static/js/main.f263c6e2.chunk.js"
   },
   {
@@ -170,6 +170,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f14c3b2ff7c821a4c838debbffd6ad2d",
     "url": "/mcpadel/static/media/fa-solid-900.f14c3b2f.ttf"
+  },
+  {
+    "revision": "74e34f80140d4b2d882accf8434a9ddd",
+    "url": "/mcpadel/static/media/fondo.74e34f80.jpg"
   },
   {
     "revision": "ddbc8527c9d5fa29660dc9101da0df37",
