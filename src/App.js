@@ -12,7 +12,7 @@ import minipareja5 from './img/miniparejas/miniparejas5.png';
 import minipareja6 from './img/miniparejas/miniparejas6.png';
 
 function calculoMedia(pareja){
-    var media = (pareja.juegosG - pareja.juegosP) + (pareja.setsG - pareja.setsP) * 2 + pareja.victorias * 3;
+    var media = (pareja.juegosG - pareja.juegosP) + (pareja.setsG - pareja.setsP) * 2;
 
     return media;
 }
@@ -47,6 +47,7 @@ function App() {
       <br />
       <br />
       <br />
+      <br />
 
       <h4>Últimos resultados</h4>
       <div className="resultados">
@@ -73,13 +74,19 @@ function App() {
             parejas.sort((a,b) => b.media - a.media).sort((a,b) => b.victorias - a.victorias).map(
                 (e, key) =>
                     <div key={key} className="clasif">
-                        <div className="puesto">{key + 1}</div>
-                        <div className="pareja"><img className="avatar" src={e.img}/> {e.nombre1} / {e.nombre2}</div>
-                        <div className="victorias"><h5>VICTORIAS</h5><span className="fuente">{e.victorias}</span></div>
-                        <div className="media"><h5>MEDIA</h5><span className="fuente">{e.media}</span></div>
+                        <div className="puesto">{key + 1}º</div>
+                        <div className="pareja"><img className="avatar" src={e.img}/><br/> {e.nombre1} / {e.nombre2}</div>
+                        <div className="datos">
+                            <div className="victorias"><span className="fuente">{e.victorias}</span> <span className="iconoVictorias">V</span></div>
+                            <div className="puntos"><span className="fuente">{e.media}</span> <span className="iconoPuntos">P</span></div>
+                        </div>
                     </div>
             )
         }
+
+        <footer className="footer">
+            Powered by <a href="https://carmona44.github.io/portfolio/">DCA</a>
+        </footer>
     </div>
   );
 }
