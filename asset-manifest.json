@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mcpadel/static/css/main.3645a399.chunk.css",
-    "main.js": "/mcpadel/static/js/main.f89324e5.chunk.js",
-    "main.js.map": "/mcpadel/static/js/main.f89324e5.chunk.js.map",
+    "main.js": "/mcpadel/static/js/main.7d915d21.chunk.js",
+    "main.js.map": "/mcpadel/static/js/main.7d915d21.chunk.js.map",
     "runtime~main.js": "/mcpadel/static/js/runtime~main.58f67504.js",
     "runtime~main.js.map": "/mcpadel/static/js/runtime~main.58f67504.js.map",
     "static/css/2.30463588.chunk.css": "/mcpadel/static/css/2.30463588.chunk.css",
-    "static/js/2.12081648.chunk.js": "/mcpadel/static/js/2.12081648.chunk.js",
-    "static/js/2.12081648.chunk.js.map": "/mcpadel/static/js/2.12081648.chunk.js.map",
+    "static/js/2.ba552210.chunk.js": "/mcpadel/static/js/2.ba552210.chunk.js",
+    "static/js/2.ba552210.chunk.js.map": "/mcpadel/static/js/2.ba552210.chunk.js.map",
     "index.html": "/mcpadel/index.html",
-    "precache-manifest.e185d9c8b8fc8791ee6dac410560f972.js": "/mcpadel/precache-manifest.e185d9c8b8fc8791ee6dac410560f972.js",
+    "precache-manifest.c8f7062e29710313a28fd4be9f142f29.js": "/mcpadel/precache-manifest.c8f7062e29710313a28fd4be9f142f29.js",
     "service-worker.js": "/mcpadel/service-worker.js",
     "static/css/2.30463588.chunk.css.map": "/mcpadel/static/css/2.30463588.chunk.css.map",
     "static/css/main.3645a399.chunk.css.map": "/mcpadel/static/css/main.3645a399.chunk.css.map",
@@ -22,8 +22,8 @@
     "static/media/miniparejas4.png": "/mcpadel/static/media/miniparejas4.b91591f2.png",
     "static/media/miniparejas5.png": "/mcpadel/static/media/miniparejas5.f9ca0b41.png",
     "static/media/miniparejas6.png": "/mcpadel/static/media/miniparejas6.6098fd86.png",
-    "static/media/parejas-jornada2-1.jpg": "/mcpadel/static/media/parejas-jornada2-1.a8432f10.jpg",
-    "static/media/parejas-jornada2-2.jpg": "/mcpadel/static/media/parejas-jornada2-2.a08714b8.jpg",
-    "static/media/parejas-jornada2-3.jpg": "/mcpadel/static/media/parejas-jornada2-3.3c6fa259.jpg"
+    "static/media/parejas-jornada3-1.jpg": "/mcpadel/static/media/parejas-jornada3-1.75d23997.jpg",
+    "static/media/parejas-jornada3-2.jpg": "/mcpadel/static/media/parejas-jornada3-2.276bdf01.jpg",
+    "static/media/parejas-jornada3-3.jpg": "/mcpadel/static/media/parejas-jornada3-3.f7993344.jpg"
   }
 }
