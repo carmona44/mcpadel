@@ -21,9 +21,9 @@ function App() {
     var parejas = [
         {nombre1: 'Raúl', nombre2: 'Marcos', img: minipareja5, juegosG: 4, juegosP: 12, setsG: 0, setsP: 2, victorias: 0},
         {nombre1: 'Cartagenas', nombre2: 'Juanico', img: minipareja6, juegosG: 12, juegosP: 4, setsG: 2, setsP: 0, victorias: 1},
-        {nombre1: 'Rubén', nombre2: 'Iván', img: minipareja1, juegosG: 6, juegosP: 12, setsG: 0, setsP: 2, victorias: 0},
+        {nombre1: 'Rubén', nombre2: 'Iván', img: minipareja1, juegosG: 7, juegosP: 24, setsG: 0, setsP: 4, victorias: 0},
         {nombre1: 'Ramón', nombre2: 'Daniel', img: minipareja2, juegosG: 24, juegosP: 11, setsG: 4, setsP: 0, victorias: 2},
-        {nombre1: 'Esteban', nombre2: 'Fran', img: minipareja3, juegosG: 0, juegosP: 0, setsG: 0, setsP: 0, victorias: 0},
+        {nombre1: 'Esteban', nombre2: 'Fran', img: minipareja3, juegosG: 12, juegosP: 1, setsG: 2, setsP: 0, victorias: 1},
         {nombre1: 'Ismael', nombre2: 'Zamora', img: minipareja4, juegosG: 5, juegosP: 12, setsG: 0, setsP: 2, victorias: 0}
     ];
 
@@ -78,6 +78,21 @@ function App() {
             <div className="partido2">
                 <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> X X</strong></div>
                 <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> X X</span></div>
+            </div>
+        </div>
+        <div className="resultados">
+            <div className="jornada">JORNADA <br/><span>3</span></div>
+            <div className="partido">
+                <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> 6 6</strong></div>
+                <div><img className="miniresul" src={minipareja1}/><span style={{color: 'red'}}> 0 1</span></div>
+            </div>
+            <div className="partido">
+                <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> X X</strong></div>
+                <div><img className="miniresul" src={minipareja5}/><span style={{color: 'red'}}> X X</span></div>
+            </div>
+            <div className="partido2">
+                <div><img className="miniresul" src={minipareja6}/><strong style={{color: 'green'}}> X X</strong></div>
+                <div><img className="miniresul" src={minipareja4}/><span style={{color: 'red'}}> X X</span></div>
             </div>
         </div>
 
