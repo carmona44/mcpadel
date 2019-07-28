@@ -20,10 +20,10 @@ function calculoMedia(pareja){
 function App() {
     var parejas = [
         {nombre1: 'Raúl', nombre2: 'Marcos', img: minipareja5, juegosG: 13, juegosP: 36, setsG: 0, setsP: 6, victorias: 0},
-        {nombre1: 'Cartagenas', nombre2: 'Juanico', img: minipareja6, juegosG: 16, juegosP: 16, setsG: 2, setsP: 2, victorias: 1},
+        {nombre1: 'Cartagenas', nombre2: 'Juanico', img: minipareja6, juegosG: 20, juegosP: 28, setsG: 2, setsP: 4, victorias: 1},
         {nombre1: 'Rubén', nombre2: 'Iván', img: minipareja1, juegosG: 35, juegosP: 47, setsG: 3, setsP: 6, victorias: 1},
         {nombre1: 'Ramón', nombre2: 'Daniel', img: minipareja2, juegosG: 48, juegosP: 18, setsG: 8, setsP: 0, victorias: 4},
-        {nombre1: 'Esteban', nombre2: 'Fran', img: minipareja3, juegosG: 24, juegosP: 6, setsG: 4, setsP: 0, victorias: 2},
+        {nombre1: 'Esteban', nombre2: 'Fran', img: minipareja3, juegosG: 36, juegosP: 10, setsG: 6, setsP: 0, victorias: 3},
         {nombre1: 'Ismael', nombre2: 'Zamora', img: minipareja4, juegosG: 27, juegosP: 40, setsG: 2, setsP: 5, victorias: 1}
     ];
 
@@ -76,8 +76,8 @@ function App() {
                 <div><img className="miniresul" src={minipareja5}/><span style={{color: 'red'}}> 4 2</span></div>
             </div>
             <div className="partido2">
-                <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> X X</strong></div>
-                <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> X X</span></div>
+                <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> 6 6</strong></div>
+                <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> 1 3</span></div>
             </div>
         </div>
         <div className="resultados">
