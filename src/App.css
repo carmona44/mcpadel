@@ -142,6 +142,16 @@ h4{
     margin-top: 50px;
 }
 
+.mensaje{
+    background-color: red;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 a{
     font-weight: bold;
 }

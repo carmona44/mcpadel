@@ -19,12 +19,11 @@ function calculoMedia(pareja){
 
 function App() {
     var parejas = [
-        {nombre1: 'Raúl', nombre2: 'Marcos', img: minipareja5, juegosG: 13, juegosP: 36, setsG: 0, setsP: 6, victorias: 0},
-        {nombre1: 'Cartagenas', nombre2: 'Juanico', img: minipareja6, juegosG: 20, juegosP: 28, setsG: 2, setsP: 4, victorias: 1},
-        {nombre1: 'Rubén', nombre2: 'Iván', img: minipareja1, juegosG: 35, juegosP: 47, setsG: 3, setsP: 6, victorias: 1},
-        {nombre1: 'Ramón', nombre2: 'Daniel', img: minipareja2, juegosG: 60, juegosP: 33, setsG: 9, setsP: 2, victorias: 4},
-        {nombre1: 'Esteban', nombre2: 'Fran', img: minipareja3, juegosG: 51, juegosP: 22, setsG: 8, setsP: 1, victorias: 4},
-        {nombre1: 'Ismael', nombre2: 'Zamora', img: minipareja4, juegosG: 27, juegosP: 40, setsG: 2, setsP: 5, victorias: 1}
+        {nombre1: 'Cartagenas', nombre2: 'Raúl', img: minipareja6, juegosG: 43, juegosP: 53, setsG: 4, setsP: 7, victorias: 2},
+        {nombre1: 'Rubén', nombre2: 'Iván', img: minipareja1, juegosG: 68, juegosP: 83, setsG: 6, setsP: 10, victorias: 2},
+        {nombre1: 'Ramón', nombre2: 'Daniel', img: minipareja2, juegosG: 73, juegosP: 41, setsG: 11, setsP: 2, victorias: 5},
+        {nombre1: 'Esteban', nombre2: 'Fran', img: minipareja3, juegosG: 63, juegosP: 22, setsG: 10, setsP: 1, victorias: 5},
+        {nombre1: 'Ismael', nombre2: 'Zamora', img: minipareja4, juegosG: 39, juegosP: 46, setsG: 4, setsP: 5, victorias: 2}
     ];
 
     for (var i=0; i<parejas.length; i++){
@@ -51,44 +50,32 @@ function App() {
 
       <h4>Últimos resultados</h4>
       <div className="resultados">
-          <div className="jornada">JORNADA <br/><span>1</span></div>
+          <div className="jornada">JORNADA <br/><span>6</span></div>
           <div className="partido">
-              <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> 6 6</strong></div>
-              <div><img className="miniresul" src={minipareja1}/><span style={{color: 'red'}}> 2 4</span></div>
-          </div>
-          <div className="partido">
-              <div><img className="miniresul" src={minipareja6}/><strong style={{color: 'green'}}> 6 6</strong></div>
-              <div><img className="miniresul" src={minipareja5}/><span style={{color: 'red'}}> 2 2</span></div>
+              <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> 6 7</strong></div>
+              <div><img className="miniresul" src={minipareja1}/><span style={{color: 'red'}}> 2 6</span></div>
           </div>
           <div className="partido2">
-              <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> 6 6</strong></div>
-              <div><img className="miniresul" src={minipareja4}/><span style={{color: 'red'}}> 2 3</span></div>
+              <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> X X</strong></div>
+              <div><img className="miniresul" src={minipareja4}/><span style={{color: 'red'}}> X X</span></div>
           </div>
       </div>
         <div className="resultados">
-            <div className="jornada">JORNADA <br/><span>2</span></div>
+            <div className="jornada">JORNADA <br/><span>7</span></div>
             <div className="partido">
-                <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> 6 6</strong></div>
-                <div><img className="miniresul" src={minipareja4}/><span style={{color: 'red'}}> 1 4</span></div>
-            </div>
-            <div className="partido">
-                <div><img className="miniresul" src={minipareja1}/><strong style={{color: 'green'}}> 6 6</strong></div>
-                <div><img className="miniresul" src={minipareja5}/><span style={{color: 'red'}}> 4 2</span></div>
+                <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> X X</strong></div>
+                <div><img className="miniresul" src={minipareja4}/><span style={{color: 'red'}}> X X</span></div>
             </div>
             <div className="partido2">
-                <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> 6 6</strong></div>
-                <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> 1 3</span></div>
+                <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> X X</strong></div>
+                <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> X X</span></div>
             </div>
         </div>
         <div className="resultados">
-            <div className="jornada">JORNADA <br/><span>3</span></div>
+            <div className="jornada">JORNADA <br/><span>8</span></div>
             <div className="partido">
-                <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> 6 6</strong></div>
-                <div><img className="miniresul" src={minipareja1}/><span style={{color: 'red'}}> 0 1</span></div>
-            </div>
-            <div className="partido">
-                <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> 6 6</strong></div>
-                <div><img className="miniresul" src={minipareja5}/><span style={{color: 'red'}}> 3 0</span></div>
+                <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> X X</strong></div>
+                <div><img className="miniresul" src={minipareja1}/><span style={{color: 'red'}}> X X</span></div>
             </div>
             <div className="partido2">
                 <div><img className="miniresul" src={minipareja6}/><strong style={{color: 'green'}}> X X</strong></div>
@@ -96,38 +83,31 @@ function App() {
             </div>
         </div>
         <div className="resultados">
-            <div className="jornada">JORNADA <br/><span>4</span></div>
+            <div className="jornada">JORNADA <br/><span>9</span></div>
             <div className="partido">
-                <div><img className="miniresul" src={minipareja4}/><strong style={{color: 'green'}}> 4 6 7</strong></div>
-                <div><img className="miniresul" src={minipareja1}/><span style={{color: 'red'}}> 6 4 6</span></div>
+                <div><img className="miniresul" src={minipareja4}/><strong style={{color: 'green'}}> X X</strong></div>
+                <div><img className="miniresul" src={minipareja1}/><span style={{color: 'red'}}> X X</span></div>
             </div>
             <div className="partido">
-                <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> 6 6</strong></div>
-                <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> 3 1</span></div>
-            </div>
-            <div className="partido2">
-                <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> X X</strong></div>
-                <div><img className="miniresul" src={minipareja5}/><span style={{color: 'red'}}> X X</span></div>
+                <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> X X</strong></div>
+                <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> X X</span></div>
             </div>
         </div>
         <div className="resultados">
-            <div className="jornada">JORNADA <br/><span>5</span></div>
+            <div className="jornada">JORNADA <br/><span>10</span></div>
             <div className="partido">
-                <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> 3 6 6</strong></div>
-                <div><img className="miniresul" src={minipareja2}/><span style={{color: 'red'}}> 6 2 4</span></div>
+                <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> X X</strong></div>
+                <div><img className="miniresul" src={minipareja2}/><span style={{color: 'red'}}> X X</span></div>
             </div>
             <div className="partido">
-                <div><img className="miniresul" src={minipareja1}/><strong style={{color: 'green'}}> X X</strong></div>
-                <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> X X</span></div>
-            </div>
-            <div className="partido2">
-                <div><img className="miniresul" src={minipareja4}/><strong style={{color: 'green'}}> X X</strong></div>
-                <div><img className="miniresul" src={minipareja5}/><span style={{color: 'red'}}> X X</span></div>
+                <div><img className="miniresul" src={minipareja1}/><strong style={{color: 'green'}}> 6 6</strong></div>
+                <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> 4 1</span></div>
             </div>
         </div>
 
       <h4>Próxima jornada</h4>
-      <Carousel/>
+        {/*<Carousel/>*/}
+        <div className="mensaje"><p>A la espera de saber los clasificados a la fase del KO. Buena suerte, la necesitareis ;)</p></div>
 
       <h4 className="espacioclas">Clasificación</h4>
         {
@@ -152,3 +132,86 @@ function App() {
 }
 
 export default App;
+
+
+/*
+    RESULTADOS 1ª vuelta por si las reclamaciones
+
+
+ <div className="resultados">
+ <div className="jornada">JORNADA <br/><span>1</span></div>
+ <div className="partido">
+ <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> 6 6</strong></div>
+ <div><img className="miniresul" src={minipareja1}/><span style={{color: 'red'}}> 2 4</span></div>
+ </div>
+ <div className="partido">
+ <div><img className="miniresul" src={minipareja6}/><strong style={{color: 'green'}}> 6 6</strong></div>
+ <div><img className="miniresul" src={minipareja5}/><span style={{color: 'red'}}> 2 2</span></div>
+ </div>
+ <div className="partido2">
+ <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> 6 6</strong></div>
+ <div><img className="miniresul" src={minipareja4}/><span style={{color: 'red'}}> 2 3</span></div>
+ </div>
+ </div>
+ <div className="resultados">
+ <div className="jornada">JORNADA <br/><span>2</span></div>
+ <div className="partido">
+ <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> 6 6</strong></div>
+ <div><img className="miniresul" src={minipareja4}/><span style={{color: 'red'}}> 1 4</span></div>
+ </div>
+ <div className="partido">
+ <div><img className="miniresul" src={minipareja1}/><strong style={{color: 'green'}}> 6 6</strong></div>
+ <div><img className="miniresul" src={minipareja5}/><span style={{color: 'red'}}> 4 2</span></div>
+ </div>
+ <div className="partido2">
+ <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> 6 6</strong></div>
+ <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> 1 3</span></div>
+ </div>
+ </div>
+ <div className="resultados">
+ <div className="jornada">JORNADA <br/><span>3</span></div>
+ <div className="partido">
+ <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> 6 6</strong></div>
+ <div><img className="miniresul" src={minipareja1}/><span style={{color: 'red'}}> 0 1</span></div>
+ </div>
+ <div className="partido">
+ <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> 6 6</strong></div>
+ <div><img className="miniresul" src={minipareja5}/><span style={{color: 'red'}}> 3 0</span></div>
+ </div>
+ <div className="partido2">
+ <div><img className="miniresul" src={minipareja6}/><strong style={{color: 'green'}}> X X</strong></div>
+ <div><img className="miniresul" src={minipareja4}/><span style={{color: 'red'}}> X X</span></div>
+ </div>
+ </div>
+ <div className="resultados">
+ <div className="jornada">JORNADA <br/><span>4</span></div>
+ <div className="partido">
+ <div><img className="miniresul" src={minipareja4}/><strong style={{color: 'green'}}> 4 6 7</strong></div>
+ <div><img className="miniresul" src={minipareja1}/><span style={{color: 'red'}}> 6 4 6</span></div>
+ </div>
+ <div className="partido">
+ <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> 6 6</strong></div>
+ <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> 3 1</span></div>
+ </div>
+ <div className="partido2">
+ <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> X X</strong></div>
+ <div><img className="miniresul" src={minipareja5}/><span style={{color: 'red'}}> X X</span></div>
+ </div>
+ </div>
+ <div className="resultados">
+ <div className="jornada">JORNADA <br/><span>5</span></div>
+ <div className="partido">
+ <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> 3 6 6</strong></div>
+ <div><img className="miniresul" src={minipareja2}/><span style={{color: 'red'}}> 6 2 4</span></div>
+ </div>
+ <div className="partido">
+ <div><img className="miniresul" src={minipareja1}/><strong style={{color: 'green'}}> X X</strong></div>
+ <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> X X</span></div>
+ </div>
+ <div className="partido2">
+ <div><img className="miniresul" src={minipareja4}/><strong style={{color: 'green'}}> X X</strong></div>
+ <div><img className="miniresul" src={minipareja5}/><span style={{color: 'red'}}> X X</span></div>
+ </div>
+ </div>
+
+ */
