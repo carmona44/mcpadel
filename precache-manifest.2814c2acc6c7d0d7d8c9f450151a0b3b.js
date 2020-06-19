@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "86d488f5416f949e322457151c08f954",
+    "revision": "44e4b3ecc5e9282c210e6b1838976214",
     "url": "/mcpadel/index.html"
   },
   {
-    "revision": "bd69692a9f8230d91d08",
+    "revision": "feb48102b6c243a4f073",
     "url": "/mcpadel/static/css/2.30463588.chunk.css"
   },
   {
-    "revision": "dd6347b352edba22332e",
-    "url": "/mcpadel/static/css/main.009a00d3.chunk.css"
+    "revision": "1db768f7b7a93f473c14",
+    "url": "/mcpadel/static/css/main.02b80172.chunk.css"
   },
   {
-    "revision": "bd69692a9f8230d91d08",
-    "url": "/mcpadel/static/js/2.496f007f.chunk.js"
+    "revision": "feb48102b6c243a4f073",
+    "url": "/mcpadel/static/js/2.8886b129.chunk.js"
   },
   {
-    "revision": "dd6347b352edba22332e",
-    "url": "/mcpadel/static/js/main.34966d59.chunk.js"
+    "revision": "1db768f7b7a93f473c14",
+    "url": "/mcpadel/static/js/main.664564e9.chunk.js"
   },
   {
     "revision": "d85147773896a11b34e0",
@@ -112,6 +112,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mcpadel/static/media/arrow_right.8ef6a08c.svg"
   },
   {
+    "revision": "53fc50a3177985dba263e569a4514709",
+    "url": "/mcpadel/static/media/david_aleman.53fc50a3.png"
+  },
+  {
+    "revision": "473a35381806abacdae45ba330e9088a",
+    "url": "/mcpadel/static/media/david_navarro.473a3538.png"
+  },
+  {
     "revision": "38975343b586296e9b73e6b56cc3ec5d",
     "url": "/mcpadel/static/media/fa-brands-400.38975343.svg"
   },
@@ -176,39 +184,47 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mcpadel/static/media/fondo.74e34f80.jpg"
   },
   {
-    "revision": "ddbc8527c9d5fa29660dc9101da0df37",
-    "url": "/mcpadel/static/media/miniparejas1.ddbc8527.png"
+    "revision": "98c3c77507495bfa43da64d1aa358533",
+    "url": "/mcpadel/static/media/jornada1.98c3c775.png"
   },
   {
-    "revision": "6ff00898db29d9700e59ca0f77e1d4ce",
-    "url": "/mcpadel/static/media/miniparejas2.6ff00898.png"
+    "revision": "cea0eefa02e8756c6a5ec8d5d8f93f17",
+    "url": "/mcpadel/static/media/jornada2.cea0eefa.png"
   },
   {
-    "revision": "9b58b86d44c76e1017c2e075cd38d550",
-    "url": "/mcpadel/static/media/miniparejas3.9b58b86d.png"
+    "revision": "5edde80fbba4a329438389eb838c67e2",
+    "url": "/mcpadel/static/media/jornada3.5edde80f.png"
   },
   {
-    "revision": "b91591f2938ded720decd21639ae0067",
-    "url": "/mcpadel/static/media/miniparejas4.b91591f2.png"
+    "revision": "e057e58c44c55fe6a3177201f4c000fa",
+    "url": "/mcpadel/static/media/jose_javier.e057e58c.png"
   },
   {
-    "revision": "f9ca0b412901ad4afe0e74e5b1a16a6d",
-    "url": "/mcpadel/static/media/miniparejas5.f9ca0b41.png"
+    "revision": "bb151ded76deee285fe882ba63e71e8d",
+    "url": "/mcpadel/static/media/mini-aleman-carmona.bb151ded.png"
   },
   {
-    "revision": "6098fd86b8f15b0f82be52831f5e66e6",
-    "url": "/mcpadel/static/media/miniparejas6.6098fd86.png"
+    "revision": "d30394f4e79b7d22d9d416d1552eba8a",
+    "url": "/mcpadel/static/media/mini-aleman-joseja.d30394f4.png"
   },
   {
-    "revision": "e89f15d0034da439616c3ca953459375",
-    "url": "/mcpadel/static/media/parejas-jornada5-1.e89f15d0.jpg"
+    "revision": "c1bb85cf379f2675a6dc661b6b08f51d",
+    "url": "/mcpadel/static/media/mini-aleman-navarro.c1bb85cf.png"
   },
   {
-    "revision": "d6d005a135966388172e0679588dbfef",
-    "url": "/mcpadel/static/media/parejas-jornada5-2.d6d005a1.jpg"
+    "revision": "abc87f0c0d42bd5ec65ef0c1eec4f56d",
+    "url": "/mcpadel/static/media/mini-joseja-carmona.abc87f0c.png"
   },
   {
-    "revision": "fbb0f173cbd42ed1620c694970bbe4ad",
-    "url": "/mcpadel/static/media/parejas-jornada5-3.fbb0f173.jpg"
+    "revision": "27d6747a2b34aeef683488a9b2e55cf6",
+    "url": "/mcpadel/static/media/mini-navarro-carmona.27d6747a.png"
+  },
+  {
+    "revision": "402dc993d98e72ce28c3165dd39fe45b",
+    "url": "/mcpadel/static/media/mini-navarro-joseja.402dc993.png"
+  },
+  {
+    "revision": "1034e6fdab7b205ebc0f385b5ff70d27",
+    "url": "/mcpadel/static/media/yo.1034e6fd.png"
   }
 ]);
