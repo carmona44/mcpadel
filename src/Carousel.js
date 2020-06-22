@@ -1,9 +1,9 @@
 import React from "react";
 import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
     "mdbreact";
-import foto1 from './img/parejas/parejas-jornada5-1.jpg';
-import foto2 from './img/parejas/parejas-jornada5-2.jpg';
-import foto3 from './img/parejas/parejas-jornada5-3.jpg';
+import foto1 from './img/parejas/jornada1.png';
+import foto2 from './img/parejas/jornada2.png';
+import foto3 from './img/parejas/jornada3.png';
 
 const CarouselPage = () => {
     return (

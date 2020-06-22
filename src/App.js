@@ -4,30 +4,34 @@ import './App.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Carousel from './Carousel.js';
 
-import minipareja1 from './img/miniparejas/miniparejas1.png';
-import minipareja2 from './img/miniparejas/miniparejas2.png';
-import minipareja3 from './img/miniparejas/miniparejas3.png';
-import minipareja4 from './img/miniparejas/miniparejas4.png';
-import minipareja5 from './img/miniparejas/miniparejas5.png';
-import minipareja6 from './img/miniparejas/miniparejas6.png';
+import minipareja1 from './img/miniparejas/mini-aleman-carmona.png';
+import minipareja2 from './img/miniparejas/mini-aleman-joseja.png';
+import minipareja3 from './img/miniparejas/mini-aleman-navarro.png';
+import minipareja4 from './img/miniparejas/mini-joseja-carmona.png';
+import minipareja5 from './img/miniparejas/mini-navarro-carmona.png';
+import minipareja6 from './img/miniparejas/mini-navarro-joseja.png';
 
-function calculoMedia(pareja){
-    var media = (pareja.juegosG - pareja.juegosP) + (pareja.setsG - pareja.setsP) * 2;
+import imgAleman from './img/jugadores/david_aleman.png';
+import imgCarmona from './img/jugadores/yo.png';
+import imgNavarro from './img/jugadores/david_navarro.png';
+import imgJoseja from './img/jugadores/jose_javier.png';
+
+function calculoMedia(jugador){
+    var media = (jugador.juegosG - jugador.juegosP) + (jugador.setsG - jugador.setsP) * 2;
 
     return media;
 }
 
 function App() {
-    var parejas = [
-        {nombre1: 'Cartagenas', nombre2: 'Raúl', img: minipareja6, juegosG: 62, juegosP: 69, setsG: 6, setsP: 8, victorias: 3},
-        {nombre1: 'Rubén', nombre2: 'Iván', img: minipareja1, juegosG: 68, juegosP: 83, setsG: 6, setsP: 10, victorias: 2},
-        {nombre1: 'Ramón', nombre2: 'Daniel', img: minipareja2, juegosG: 73, juegosP: 41, setsG: 11, setsP: 2, victorias: 5},
-        {nombre1: 'Esteban', nombre2: 'Fran', img: minipareja3, juegosG: 63, juegosP: 22, setsG: 10, setsP: 1, victorias: 5},
-        {nombre1: 'Ismael', nombre2: 'Zamora', img: minipareja4, juegosG: 55, juegosP: 65, setsG: 5, setsP: 7, victorias: 2}
+    var jugadores = [
+        {nombre: 'David Alemán', img: imgAleman, avatarClass: "avatar-aleman", juegosG: 0, juegosP: 0, setsG: 0, setsP: 0, victorias: 0},
+        {nombre: 'Daniel Carmona', img: imgCarmona, avatarClass: "avatar-carmona", juegosG: 0, juegosP: 0, setsG: 0, setsP: 0, victorias: 0},
+        {nombre: 'David Navarro', img: imgNavarro, avatarClass: "avatar-navarro", juegosG: 0, juegosP: 0, setsG: 0, setsP: 0, victorias: 0},
+        {nombre: 'Jose Javier', img: imgJoseja, avatarClass: "avatar-joseja", juegosG: 0, juegosP: 0, setsG: 0, setsP: 0, victorias: 0}
     ];
 
-    for (var i=0; i<parejas.length; i++){
-        parejas[i].media = calculoMedia(parejas[i]);
+    for (var i=0; i<jugadores.length; i++){
+        jugadores[i].media = calculoMedia(jugadores[i]);
     }
 
   return (
@@ -40,7 +44,7 @@ function App() {
               height="50"
               alt="World padel tour logo"
           />
-          { ' McLiguilla' }
+          { ' Escuadrón ' }
         </Navbar.Brand>
       </Navbar>
       <br />
@@ -50,72 +54,29 @@ function App() {
 
       <h4>Últimos resultados</h4>
       <div className="resultados">
-          <div className="jornada">JORNADA <br/><span>6</span></div>
+          <div className="jornada">JORNADA <br/><span>1</span></div>
           <div className="partido">
-              <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> 6 7</strong></div>
-              <div><img className="miniresul" src={minipareja1}/><span style={{color: 'red'}}> 2 6</span></div>
-          </div>
-          <div className="partido2">
-              <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> X X</strong></div>
-              <div><img className="miniresul" src={minipareja4}/><span style={{color: 'red'}}> X X</span></div>
+              <div>
+                  <img className="miniresul" src={minipareja3}/>
+                  <strong style={{color: 'green'}}> X X</strong>
+              </div>
+              <div>
+                  <img className="miniresul" src={minipareja4}/>
+                  <span style={{color: 'red'}}> X X</span>
+              </div>
           </div>
       </div>
-        <div className="resultados">
-            <div className="jornada">JORNADA <br/><span>7</span></div>
-            <div className="partido">
-                <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> X X</strong></div>
-                <div><img className="miniresul" src={minipareja4}/><span style={{color: 'red'}}> X X</span></div>
-            </div>
-            <div className="partido2">
-                <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> X X</strong></div>
-                <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> X X</span></div>
-            </div>
-        </div>
-        <div className="resultados">
-            <div className="jornada">JORNADA <br/><span>8</span></div>
-            <div className="partido">
-                <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> X X</strong></div>
-                <div><img className="miniresul" src={minipareja1}/><span style={{color: 'red'}}> X X</span></div>
-            </div>
-            <div className="partido2">
-                <div><img className="miniresul" src={minipareja6}/><strong style={{color: 'green'}}> 6 6 7</strong></div>
-                <div><img className="miniresul" src={minipareja4}/><span style={{color: 'red'}}> 4 7 5</span></div>
-            </div>
-        </div>
-        <div className="resultados">
-            <div className="jornada">JORNADA <br/><span>9</span></div>
-            <div className="partido">
-                <div><img className="miniresul" src={minipareja4}/><strong style={{color: 'green'}}> X X</strong></div>
-                <div><img className="miniresul" src={minipareja1}/><span style={{color: 'red'}}> X X</span></div>
-            </div>
-            <div className="partido">
-                <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> X X</strong></div>
-                <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> X X</span></div>
-            </div>
-        </div>
-        <div className="resultados">
-            <div className="jornada">JORNADA <br/><span>10</span></div>
-            <div className="partido">
-                <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> X X</strong></div>
-                <div><img className="miniresul" src={minipareja2}/><span style={{color: 'red'}}> X X</span></div>
-            </div>
-            <div className="partido">
-                <div><img className="miniresul" src={minipareja1}/><strong style={{color: 'green'}}> 6 6</strong></div>
-                <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> 4 1</span></div>
-            </div>
-        </div>
 
       <h4>Próxima jornada</h4>
-        {/*<Carousel/>*/}
-        <div className="mensaje"><p>A la espera de saber los clasificados a la fase del KO. Buena suerte, la necesitareis ;)</p></div>
+        {<Carousel/>}
 
       <h4 className="espacioclas">Clasificación</h4>
         {
-            parejas.sort((a,b) => b.media - a.media).sort((a,b) => b.victorias - a.victorias).map(
+            jugadores.sort((a,b) => b.media - a.media).sort((a,b) => b.victorias - a.victorias).map(
                 (e, key) =>
                     <div key={key} className="clasif">
                         <div className="puesto">{key + 1}º</div>
-                        <div className="pareja"><img className="avatar" src={e.img}/><br/> {e.nombre1} / {e.nombre2}</div>
+                        <div className="pareja"><img className={e.avatarClass} src={e.img}/><br/> {e.nombre}</div>
                         <div className="datos">
                             <div className="victorias"><span className="fuente">{e.victorias}</span> <span className="iconoVictorias">V</span></div>
                             <div className="puntos"><span className="fuente">{e.media}</span> <span className="iconoPuntos">P</span></div>
@@ -132,86 +93,3 @@ function App() {
 }
 
 export default App;
-
-
-/*
-    RESULTADOS 1ª vuelta por si las reclamaciones
-
-
- <div className="resultados">
- <div className="jornada">JORNADA <br/><span>1</span></div>
- <div className="partido">
- <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> 6 6</strong></div>
- <div><img className="miniresul" src={minipareja1}/><span style={{color: 'red'}}> 2 4</span></div>
- </div>
- <div className="partido">
- <div><img className="miniresul" src={minipareja6}/><strong style={{color: 'green'}}> 6 6</strong></div>
- <div><img className="miniresul" src={minipareja5}/><span style={{color: 'red'}}> 2 2</span></div>
- </div>
- <div className="partido2">
- <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> 6 6</strong></div>
- <div><img className="miniresul" src={minipareja4}/><span style={{color: 'red'}}> 2 3</span></div>
- </div>
- </div>
- <div className="resultados">
- <div className="jornada">JORNADA <br/><span>2</span></div>
- <div className="partido">
- <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> 6 6</strong></div>
- <div><img className="miniresul" src={minipareja4}/><span style={{color: 'red'}}> 1 4</span></div>
- </div>
- <div className="partido">
- <div><img className="miniresul" src={minipareja1}/><strong style={{color: 'green'}}> 6 6</strong></div>
- <div><img className="miniresul" src={minipareja5}/><span style={{color: 'red'}}> 4 2</span></div>
- </div>
- <div className="partido2">
- <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> 6 6</strong></div>
- <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> 1 3</span></div>
- </div>
- </div>
- <div className="resultados">
- <div className="jornada">JORNADA <br/><span>3</span></div>
- <div className="partido">
- <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> 6 6</strong></div>
- <div><img className="miniresul" src={minipareja1}/><span style={{color: 'red'}}> 0 1</span></div>
- </div>
- <div className="partido">
- <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> 6 6</strong></div>
- <div><img className="miniresul" src={minipareja5}/><span style={{color: 'red'}}> 3 0</span></div>
- </div>
- <div className="partido2">
- <div><img className="miniresul" src={minipareja6}/><strong style={{color: 'green'}}> X X</strong></div>
- <div><img className="miniresul" src={minipareja4}/><span style={{color: 'red'}}> X X</span></div>
- </div>
- </div>
- <div className="resultados">
- <div className="jornada">JORNADA <br/><span>4</span></div>
- <div className="partido">
- <div><img className="miniresul" src={minipareja4}/><strong style={{color: 'green'}}> 4 6 7</strong></div>
- <div><img className="miniresul" src={minipareja1}/><span style={{color: 'red'}}> 6 4 6</span></div>
- </div>
- <div className="partido">
- <div><img className="miniresul" src={minipareja2}/><strong style={{color: 'green'}}> 6 6</strong></div>
- <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> 3 1</span></div>
- </div>
- <div className="partido2">
- <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> X X</strong></div>
- <div><img className="miniresul" src={minipareja5}/><span style={{color: 'red'}}> X X</span></div>
- </div>
- </div>
- <div className="resultados">
- <div className="jornada">JORNADA <br/><span>5</span></div>
- <div className="partido">
- <div><img className="miniresul" src={minipareja3}/><strong style={{color: 'green'}}> 3 6 6</strong></div>
- <div><img className="miniresul" src={minipareja2}/><span style={{color: 'red'}}> 6 2 4</span></div>
- </div>
- <div className="partido">
- <div><img className="miniresul" src={minipareja1}/><strong style={{color: 'green'}}> X X</strong></div>
- <div><img className="miniresul" src={minipareja6}/><span style={{color: 'red'}}> X X</span></div>
- </div>
- <div className="partido2">
- <div><img className="miniresul" src={minipareja4}/><strong style={{color: 'green'}}> X X</strong></div>
- <div><img className="miniresul" src={minipareja5}/><span style={{color: 'red'}}> X X</span></div>
- </div>
- </div>
-
- */
