@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44e4b3ecc5e9282c210e6b1838976214",
+    "revision": "9e9bf3279074376a42338a38979dcbc1",
     "url": "/mcpadel/index.html"
   },
   {
