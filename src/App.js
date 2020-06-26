@@ -58,11 +58,23 @@ function App() {
           <div className="partido">
               <div>
                   <img className="miniresul" src={minipareja3}/>
-                  <strong style={{color: 'green'}}> X X</strong>
+                  <strong style={{color: 'red'}}> 1 4</strong>
               </div>
               <div>
                   <img className="miniresul" src={minipareja4}/>
-                  <span style={{color: 'red'}}> X X</span>
+                  <span style={{color: 'green'}}> 6 6</span>
+              </div>
+          </div>
+
+          <div className="jornada">JORNADA <br/><span>2</span></div>
+          <div className="partido">
+              <div>
+                  <img className="miniresul" src={minipareja1}/>
+                  <strong style={{color: 'green'}}> 6 4</strong>
+              </div>
+              <div>
+                  <img className="miniresul" src={minipareja6}/>
+                  <span style={{color: 'red'}}> 4 3</span>
               </div>
           </div>
       </div>
