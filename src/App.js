@@ -24,10 +24,10 @@ function calculoMedia(jugador){
 
 function App() {
     var jugadores = [
-        {nombre: 'David Alemán', img: imgAleman, avatarClass: "avatar-aleman", juegosG: 0, juegosP: 0, setsG: 0, setsP: 0, victorias: 0},
-        {nombre: 'Daniel Carmona', img: imgCarmona, avatarClass: "avatar-carmona", juegosG: 0, juegosP: 0, setsG: 0, setsP: 0, victorias: 0},
-        {nombre: 'David Navarro', img: imgNavarro, avatarClass: "avatar-navarro", juegosG: 0, juegosP: 0, setsG: 0, setsP: 0, victorias: 0},
-        {nombre: 'Jose Javier', img: imgJoseja, avatarClass: "avatar-joseja", juegosG: 0, juegosP: 0, setsG: 0, setsP: 0, victorias: 0}
+        {nombre: 'David Alemán', img: imgAleman, avatarClass: "avatar-aleman", juegosG: 15, juegosP: 19, setsG: 1, setsP: 2, victorias: 0},
+        {nombre: 'Daniel Carmona', img: imgCarmona, avatarClass: "avatar-carmona", juegosG: 22, juegosP: 12, setsG: 3, setsP: 0, victorias: 1},
+        {nombre: 'David Navarro', img: imgNavarro, avatarClass: "avatar-navarro", juegosG: 12, juegosP: 22, setsG: 0, setsP: 3, victorias: 0},
+        {nombre: 'Jose Javier', img: imgJoseja, avatarClass: "avatar-joseja", juegosG: 19, juegosP: 15, setsG: 2, setsP: 1, victorias: 1}
     ];
 
     for (var i=0; i<jugadores.length; i++){
