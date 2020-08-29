@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "43fb998f5aebca07664e5f3988ce75d8",
+    "revision": "8dadea1415b1539bc331190955cedd03",
     "url": "/mcpadel/index.html"
   },
   {
-    "revision": "1c62ba64f8a8a7e9e8fb",
+    "revision": "68396766dfafcd4a27ab",
     "url": "/mcpadel/static/css/2.30463588.chunk.css"
   },
   {
-    "revision": "88c79da0c1f02065c0fb",
-    "url": "/mcpadel/static/css/main.2f3b15c2.chunk.css"
+    "revision": "dfc30745a1cb6c312d65",
+    "url": "/mcpadel/static/css/main.233c8b6c.chunk.css"
   },
   {
-    "revision": "1c62ba64f8a8a7e9e8fb",
-    "url": "/mcpadel/static/js/2.f8579c83.chunk.js"
+    "revision": "68396766dfafcd4a27ab",
+    "url": "/mcpadel/static/js/2.9d244032.chunk.js"
   },
   {
-    "revision": "88c79da0c1f02065c0fb",
-    "url": "/mcpadel/static/js/main.ecb8db16.chunk.js"
+    "revision": "dfc30745a1cb6c312d65",
+    "url": "/mcpadel/static/js/main.a1731757.chunk.js"
   },
   {
     "revision": "d85147773896a11b34e0",
