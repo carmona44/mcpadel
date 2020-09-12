@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mcpadel/precache-manifest.96d76f7dcb44e12706fac5ac56a3d4ae.js"
+  "/mcpadel/precache-manifest.f681ad9674461090aab40b42c8bbbb51.js"
 );
 
 self.addEventListener('message', (event) => {
