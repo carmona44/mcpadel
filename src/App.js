@@ -24,10 +24,10 @@ function calculoMedia(jugador){
 
 function App() {
     var jugadores = [
-        {nombre: 'David Alemán', img: imgAleman, avatarClass: "avatar-aleman", juegosG: 15, juegosP: 19, setsG: 1, setsP: 2, victorias: 0},
-        {nombre: 'Daniel Carmona', img: imgCarmona, avatarClass: "avatar-carmona", juegosG: 22, juegosP: 12, setsG: 3, setsP: 0, victorias: 1},
-        {nombre: 'David Navarro', img: imgNavarro, avatarClass: "avatar-navarro", juegosG: 12, juegosP: 22, setsG: 0, setsP: 3, victorias: 0},
-        {nombre: 'Jose Javier', img: imgJoseja, avatarClass: "avatar-joseja", juegosG: 19, juegosP: 15, setsG: 2, setsP: 1, victorias: 1}
+        {nombre: 'David Alemán', img: imgAleman, avatarClass: "avatar-aleman", juegosG: 24, juegosP: 27, setsG: 3, setsP: 3, victorias: 1},
+        {nombre: 'Daniel Carmona', img: imgCarmona, avatarClass: "avatar-carmona", juegosG: 36, juegosP: 15, setsG: 5, setsP: 1, victorias: 2},
+        {nombre: 'David Navarro', img: imgNavarro, avatarClass: "avatar-navarro", juegosG: 22, juegosP: 29, setsG: 2, setsP: 4, victorias: 0},
+        {nombre: 'Jose Javier', img: imgJoseja, avatarClass: "avatar-joseja", juegosG: 20, juegosP: 31, setsG: 2, setsP: 4, victorias: 1}
     ];
 
     for (var i=0; i<jugadores.length; i++){
@@ -53,33 +53,52 @@ function App() {
       <br />
 
       <h4>Últimos resultados</h4>
+
+      <h3 className="ronda">Primera ronda</h3>
+
       <div className="resultados">
-          <div className="jornada">JORNADA <br/><span>1</span></div>
+          <div className="jornada">JORNADA <br/><span> 1</span></div>
           <div className="partido">
               <div>
                   <img className="miniresul" src={minipareja3}/>
-                  <strong style={{color: 'red'}}> 1 4</strong>
+                  <strong style={{color: 'red'}}> 6 0 6</strong>
               </div>
               <div>
                   <img className="miniresul" src={minipareja4}/>
-                  <span style={{color: 'green'}}> 6 6</span>
-              </div>
-          </div>
-
-          <div className="jornada">JORNADA <br/><span>2</span></div>
-          <div className="partido">
-              <div>
-                  <img className="miniresul" src={minipareja1}/>
-                  <strong style={{color: 'green'}}> 6 4</strong>
-              </div>
-              <div>
-                  <img className="miniresul" src={minipareja6}/>
-                  <span style={{color: 'red'}}> 4 3</span>
+                  <span style={{color: 'green'}}> 4 6 7</span>
               </div>
           </div>
       </div>
 
-      <h4>Próxima jornada</h4>
+      <div className="resultados">
+        <div className="jornada">JORNADA <br/><span> 2</span></div>
+        <div className="partido">
+            <div>
+                <img className="miniresul" src={minipareja1}/>
+                <strong style={{color: 'green'}}> 6 6</strong>
+            </div>
+            <div>
+                <img className="miniresul" src={minipareja6}/>
+                <span style={{color: 'red'}}> 2 1</span>
+            </div>
+        </div>
+    </div>
+
+    <div className="resultados">
+        <div className="jornada">JORNADA <br/><span> 3</span></div>
+        <div className="partido">
+            <div>
+                <img className="miniresul" src={minipareja5}/>
+                <strong style={{color: 'green'}}> 6 1</strong>
+            </div>
+            <div>
+                <img className="miniresul" src={minipareja2}/>
+                <span style={{color: 'red'}}> 0 0</span>
+            </div>
+        </div>
+    </div>
+
+      <h4>Próximas jornadas</h4>
         {<Carousel/>}
 
       <h4 className="espacioclas">Clasificación</h4>
