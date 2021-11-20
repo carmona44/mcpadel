@@ -118,6 +118,8 @@ function App() {
 
         <footer className="footer">
             Powered by <a href="https://carmona44.github.io/portfolio/">DCA</a>
+            <a href="https://www.compragamers.com/novedades">Compragamers novedades</a>
+            <a href="https://www.compragamers.com/confort/48-secretlab-titan-evo.html">Compragamers secretlab</a>
         </footer>
     </div>
   );
